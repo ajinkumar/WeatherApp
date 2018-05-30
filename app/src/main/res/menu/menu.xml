@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/convertFahrenheit"
+        android:orderInCategory="1"
+        android:title="@string/convert_fahrenheit"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/convertCelsius"
+        android:orderInCategory="1"
+        android:title="@string/convert_celsius"
+        app:showAsAction="never"/>
+
+</menu>
